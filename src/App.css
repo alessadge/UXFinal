@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+div.login {
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 120px;
+ 
+} 
+.Login-form{
+  width: 45%;
+  display: inline-block;
+  -webkit-appearance: checkbox;
+}
+.nav-item{
+  color: white;
+}
+.navbar-brand{
+  color: white
+}
+
+body {
+  background-color: black;
+}
+
+.big-banner{
+  background-image: url('./Img/isotipo.png');
+  background-size:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-position:unset;
+
+
+}
+.card {
+  text-align: center;
+  max-width: 460px;
+
+
+}
+.prueba{
+  align-self: center;
+}
+.App {
+  height: 100%;
+  border-style: inset;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.App-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+@media (min-width: 650px ) {
+  .App {
+      background-position: center center;
+  }
+
+  .App-content {
+      align-items: flex-end;
+      justify-content: center;
+  }
+}
+.carta{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display:inline-block;
+}
+.divider{
+  widows: 10px;
+  height:auto;
+  display:inline-block;
+}
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+element.style {
+  background-image: url(/static/media/blue.7e88aa30.jpg);
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
